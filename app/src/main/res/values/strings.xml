@@ -4,4 +4,8 @@
     <string name="Number2">Number 2</string>
     <string name="ok">OK</string>
     <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multi">*</string>
+    <string name="divi">/</string>
+    <string name="click">Click to go to next page</string>
 </resources>

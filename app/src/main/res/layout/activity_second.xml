@@ -94,12 +94,15 @@ tools:context=".SecondActivity" >
             android:textColor="@color/white" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonSub"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="@color/Black"
+            android:text="@string/minus"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
 
     </LinearLayout>
 
@@ -113,20 +116,25 @@ tools:context=".SecondActivity" >
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/buttonmulti"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="@color/Black"
+            android:text="@string/multi"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/buttonDivi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="@color/Black"
+            android:text="@string/divi"
+            android:textColor="@color/white" />
     </LinearLayout>
 
 </LinearLayout>
